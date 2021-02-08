@@ -1,0 +1,17 @@
+.container-cards {
+  background-color: rgb(228, 226, 226);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.cards-food {
+  text-align: center;
+}
+
+.container-cards img {
+  border-radius: 5px;
+  margin-left: 2px;
+  width: 150px;
+}

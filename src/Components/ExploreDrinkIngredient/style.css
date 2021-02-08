@@ -1,0 +1,14 @@
+.container-ingredients {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid rgb(233, 149, 54);
+  border-radius: 5px;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}

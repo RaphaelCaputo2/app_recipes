@@ -1,0 +1,14 @@
+.container-option {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.link {
+  border: 1px solid rgb(233, 165, 40);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}

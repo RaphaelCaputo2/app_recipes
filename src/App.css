@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap') ;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-over {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.container-int {
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.container-form-login {
+  align-items: center;
+  background-color: #25abb7;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.image-login {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+}
+
+.image-login img {
+  height: 500px;
+  width: 500px;
+}
+
+.container-login-int {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form-login {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 80%;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  color: gray;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 10pt;
+  margin-bottom: 15px;
+  padding: 8px;
+  text-align: center;
+}
+
+.btn-login {
+  background-color: #0c6d8e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 12pt;
+  padding: 10px;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: #0c6d8e;
+  transition-duration: 0.5s;
+}
+
+.title-login {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.title-header {
+  color: #fdcbb4;
+  font-family: Fredoka One , cursive;
+  font-weight: 700;
+}
+
+.user {
+  font-size: 10pt;
+  text-align: center;
+}
+
+.btn-default {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  padding: 5px;
+}
+
+.btn-default:hover {
+  box-shadow: 1px 2px 5px rgba(163, 79, 241, 0.5);
+  cursor: pointer;
+}
+
+.main-screen-container {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.btn-start {
+  border: none;
+  border-radius: 5px;
+  bottom: 0;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 5px;
+  position: fixed;
+}
+
+@media only screen and ( max-width : 380px ) {
+
+  .container-form-login {
+    align-items: center;
+    background-color: #25abb7;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    justify-content: center;
+    width: auto;
+  }
+
+  .image-login {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .image-login img {
+    height: 180px;
+    width: 360px;
+  }
+
+  .container-login-int {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .form-login {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    color: gray;
+    font-family: Arial , Helvetica , sans-serif;
+    font-size: 10pt;
+    margin-bottom: 15px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .btn-login {
+    background-color: #0c6d8e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 12pt;
+    padding: 10px;
+    transition-duration: 2s;
+  }
+
+  .btn-login:hover {
+    background-color: white;
+    color: #0c6d8e;
+  }
+
+  .title-login {
+    color: white;
+    font-size: 20pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: -80px;
+    text-align: center;
+  }
+
+  .btn-default {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .container-int-body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .container-fluid {
+    align-items: center;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .container {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .header {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .title-header {
+    color: #f7a782;
+    font-family: Fredoka One , cursive;
+    font-size: 14pt;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .container-cards {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .container-cards img {
+    margin-right: 10px;
+    width: 170px;
+  }
+
+  .container-buttons-profile {
+    margin: auto;
+    width: 80%;
+  }
+
+  .foodCard img {
+    width: 150px;
+  }
+}
+
+@media only screen and ( max-width : 1120px ) {
+
+  .container {
+    height: 100vh;
+    max-width: 1000px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,23 @@
+.footer_css {
+  background-color: #f8f8f8;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  position: fixed;
+  width: 100vw;
+}
+
+.btn-navigation {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  padding: 5px;
+
+}
+
+.btn-navigation:hover {
+  background-color: #0c6d8e;
+  transition-duration: 1s;
+}
