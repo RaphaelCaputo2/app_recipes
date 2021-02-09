@@ -27,7 +27,7 @@ const LoginForm = () => {
         <Animated
           animationIn="bounceInLeft"
           isVisible
-          animationInDuration="2000"
+          animationInDuration={ 2000 }
           className="form-login"
         >
           <form action="" className="form-login">
@@ -72,7 +72,7 @@ const LoginForm = () => {
         <Animated
           animationIn="bounceInRight"
           isVisible
-          animationInDuration="2000"
+          animationInDuration={ 2000 }
         >
           <img src={ ImageBack } alt="login-side" />
         </Animated>
